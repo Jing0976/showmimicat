@@ -1,0 +1,6 @@
+mkdir <showmicat>
+cd <showmicat>
+git init
+heroku login
+heruku create <showmicat>
+heruku buildpacks:set heroku/nodejs
